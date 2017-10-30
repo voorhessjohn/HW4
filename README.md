@@ -24,7 +24,7 @@ This will allow us to grade each of your projects without incurring conflicts be
 
 ## Files Included
 
-* `templates` directory"
+* `templates` directory:
 
     * `all_tweets.html`
     * `all_users.html`
