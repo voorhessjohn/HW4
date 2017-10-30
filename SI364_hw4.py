@@ -27,8 +27,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # Set up Flask debug stuff
 manager = Manager(app)
 db = SQLAlchemy(app) # For database use
-migrate = Migrate(app, db) # For database use/updating
-manager.add_command('db', MigrateCommand) # To add migrate command to manager
 
 ## Set up Shell context so it's easy to use the shell to debug
 def make_shell_context():
