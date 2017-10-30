@@ -114,7 +114,7 @@ def internal_server_error(e):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     pass
-    ## TODO SI 364: Fill in the index route as described.
+    ## TODO SI364: Fill in the index route as described.
     # A template index.html has been created and provided to render what this route needs to show -- YOU just need to fill in this view function so it will work.
     ## HINT: Check out the index.html template to make sure you're sending it the data it needs.
 
@@ -134,14 +134,14 @@ def index():
 def see_all_tweets():
     pass
 
-    # TODO SI 364: Fill in this view function so that it can successfully render the template all_tweets.html, which is provided.
+    # TODO SI364: Fill in this view function so that it can successfully render the template all_tweets.html, which is provided.
     ## HINT: Check out the all_songs and all_artists routes in the songs app you saw in class.
 
 
 @app.route('/all_users')
 def see_all_users():
 
-    # TODO SI 364: Fill in this view function so it can successfully render the template all_users.html, which is provided. (See instructions for more detail.)
+    # TODO SI364: Fill in this view function so it can successfully render the template all_users.html, which is provided. (See instructions for more detail.)
     ## HINT: Check out the all_songs and all_artists routes in the songs app you saw in class.
 
 

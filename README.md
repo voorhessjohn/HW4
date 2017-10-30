@@ -12,7 +12,7 @@
 
 In this HW, you'll be writing an application that's *kind of like* Twitter for one person: you'll be saving data about tweets, but instead of getting tweets by different users on `twitter.com`, you'll be using a form to gather data from a user about tweets they would *like to see posted*, for example -- and saving that data in a database.
 
-We've provided templates, and instructions in the `SI364_hw4.py` file. Your task(s) are to fill in code as directed in that file. Everywhere you'll need to write code, you'll find a comment `TODO SI 364`. Filling in code correctly in each of those spaces will allow you to complete this application so that it works!
+We've provided templates, and instructions in the `SI364_hw4.py` file. Your task(s) are to fill in code as directed in that file. Everywhere you'll need to write code, you'll find a comment `TODO SI364`. Filling in code correctly in each of those spaces will allow you to complete this application so that it works!
 
 You'll see examples of applications and database relationships in class (section and lecture) that will be examples similar to what you're doing here.
 
