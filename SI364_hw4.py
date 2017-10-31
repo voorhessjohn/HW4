@@ -31,7 +31,9 @@ db = SQLAlchemy(app) # For database use
 ## Set up Shell context so it's easy to use the shell to debug
 def make_shell_context():
     return dict(app=app, db=db) ## TODO SI364: Add your models to this shell context function so you can use them in the shell
-
+    # TODO SI364: Submit a screenshot of yourself using the shell to make a query for all the Tweets in the database.
+    # Filling this in will make that easier!
+    
 # Add function use to manager
 manager.add_command("shell", Shell(make_context=make_shell_context))
 
