@@ -33,7 +33,7 @@ def make_shell_context():
     return dict(app=app, db=db) ## TODO SI364: Add your models to this shell context function so you can use them in the shell
     # TODO SI364: Submit a screenshot of yourself using the shell to make a query for all the Tweets in the database.
     # Filling this in will make that easier!
-    
+
 # Add function use to manager
 manager.add_command("shell", Shell(make_context=make_shell_context))
 
@@ -67,7 +67,7 @@ manager.add_command("shell", Shell(make_context=make_shell_context))
 # -- tweet_id
 # -- hashtag_id
 
-## NOTE: You'll have to set up database relationship code in both the Tweet table and the Hashtag table so that the association table for that many-many relationship will work properly!
+## NOTE: You'll have to set up database relationship code in either the Tweet table or the Hashtag table so that the association table for that many-many relationship will work properly!
 
 
 ##### Set up Forms #####
