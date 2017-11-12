@@ -96,6 +96,8 @@ class Tweet_Hashtag(db.Model):
     tweet_id = db.Column(db.Integer, db.ForeignKey("tweets.id"))
     hashtag_id = db.Column(db.Integer, db.ForeignKey("hashtags.id"))
 
+# I couldn't get the other 'simple' version of the association table to work correctly, so I created a class.
+
 
 ## NOTE: You'll have to set up database relationship code in either the Tweet table or the Hashtag table so that the association table for that many-many relationship will work properly!
 
